@@ -133,3 +133,13 @@ collector_host={{ newrelic_collector_host }}
 # Default: 30
 #
 timeout={{ newrelic_timeout }}
+
+#
+# Option : labels
+# Value  : A dictionary of label names and values for categories that will be 
+#          applied to the data sent from this agent. This may also be expressed 
+#          as a semicolon delimited string of colon-separated pairs. For example: 
+#          labels=Server:One;Data Center:Primary;.
+# Default: ""
+#
+labels={{ newrelic_labels }}
