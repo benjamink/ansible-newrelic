@@ -39,6 +39,9 @@ The variables that can be passed to this role and a brief description about them
     
     # Connection timeout for collector host
     newrelic_timeout: 30
+    
+    # Add labels to the host (key:value - defaults to empty)
+    newrelic_labels: "Tag:webserver;Tier:production;App:frontend"
 
 ## Examples
 
